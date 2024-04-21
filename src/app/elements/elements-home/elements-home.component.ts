@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, ViewChild} from '@angular/core';
+import {DividerComponent} from "../../shared/divider/divider.component";
 
 @Component({
   selector: 'app-elements-home',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./elements-home.component.css']
 })
 export class ElementsHomeComponent {
+  // @ViewChild(DividerComponent) divider: DividerComponent = new DividerComponent;
+  // @ViewChild('dt') set divider(v: DividerComponent) {
+  //     v.title = 'hello with viewChild';
+  // }
 
+  constructor() {
+  }
 }

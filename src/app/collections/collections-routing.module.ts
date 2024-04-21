@@ -4,7 +4,7 @@ import {ElementsHomeComponent} from "../elements/elements-home/elements-home.com
 import {CollectionsHomeComponent} from "./collections-home/collections-home.component";
 
 const routes: Routes = [
-  {path: 'collections', component: CollectionsHomeComponent}
+  {path: '', component: CollectionsHomeComponent}
 ];
 
 @NgModule({
